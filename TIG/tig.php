@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="bootstrap/css/styles.css">
+    <link rel="stylesheet" href="../bootstrap/css/styles.css">
 
     <title>EPBJC Digital</title>
   </head>
@@ -21,14 +21,14 @@
       include_once("../navbar2.php");
       ?>
     <div class="container-fluid">
-    	<div class="row">
-            <div class="col-lg-12">
-            </div>
-        </div>
+      <?php 
+        include_once("../infoCursos.php");
+      ?>
     </div>
 
 
-    <script src="../bootstrap/js/popper.min.js"></script>
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <?php 
+    	include_once("../imports.php")
+    ?>
   </body>
 </html>

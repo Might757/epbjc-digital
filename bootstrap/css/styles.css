@@ -196,6 +196,10 @@ img {
   font-size: 1.2rem;
   margin-right: .5rem;
 }
+.epbjc__icon {
+  filter: invert(26%) sepia(33%) saturate(0%) hue-rotate(199deg) brightness(97%) contrast(85%);
+  width: 24px;
+}
 
 .nav__name {
   font-size: var(--small-font-size);

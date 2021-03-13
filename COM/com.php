@@ -21,10 +21,9 @@
       include_once("../navbar2.php");
       ?>
     <div class="container-fluid">
-    	<div class="row">
-            <div class="col-lg-12">
-            </div>
-        </div>
+      <?php 
+        include_once("../infoCursos.php");
+      ?>
     </div>
 
 

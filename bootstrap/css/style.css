@@ -247,3 +247,12 @@ color: #000000;
   }
 }
 
+.card {
+  border: none;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+  border-radius: 25px 25px 25px 25px;
+}
+
+.card-group {
+  padding: 0;
+}

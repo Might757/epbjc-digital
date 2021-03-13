@@ -25,7 +25,7 @@
     <nav class="nav__container">
         <div>
             <a href="#" class="nav__link nav__logo">
-                <i class='bx bxs-disc nav__icon' ></i>
+                <img src="../img/logo_epbjc_mini.svg" class='nav__icon epbjc__icon' ></img>
                 <span class="nav__logo-name">EPBJC Digital</span>
             </a>
 
