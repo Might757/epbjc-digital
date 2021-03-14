@@ -5,6 +5,26 @@ body {
     background-size: cover;
 }
 
+.textProfessor {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.aProfessor {
+    text-decoration: underline; 
+    color: white;
+}
+.aProfessor:hover {
+    transition: all 0.3s ease-in-out;
+    -webkit-trasition: all 0.3s ease-in-out;
+    -o-trasition: all 0.3s ease-in-out;
+    color: rgba(44, 114, 172, 0.95);
+}
+
+
 .bigText {
     /* Se quiseres aceder ao conteúdo, por favor, seleciona o teu curso */
 font-family: Poppins;
@@ -74,7 +94,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding-top: 400px;
+    padding-top: 350px;
 }
 /*aaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
 .custom-select-wrapper {

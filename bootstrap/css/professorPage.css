@@ -1,0 +1,59 @@
+body {
+    background-image:
+    linear-gradient(to bottom, rgba(117, 22, 22, 0.95), rgba(52, 8, 8, 0.95)),
+    url('../../img/1124.jpg');
+    background-size: cover;
+}
+
+
+
+.codigoProfessor {
+margin-top: 50px;
+}
+.homeEpbjc {
+    padding-top: 350px;
+}
+
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+  
+.icon { 
+    padding: 10px; 
+    min-width: 40px; 
+} 
+  
+.input-field { 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center; 
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.aProfessor:hover {
+    transition: all 0.3s ease-in-out;
+    -webkit-trasition: all 0.3s ease-in-out;
+    -o-trasition: all 0.3s ease-in-out;
+    color: rgba(172, 44, 44, 0.95);
+}

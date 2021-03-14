@@ -9,7 +9,9 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/style.css" rel="stylesheet">
     <link href="bootstrap/css/homepage.css" rel="stylesheet">
+    <link href="bootstrap/css/professorPage.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <title>EPBJC Digital</title>
@@ -20,22 +22,14 @@
         <div class="col-lg-1">
         </div>
         <div class="col-lg-10"> 
-            <div class="selectCourse">
-                <h1 class="bigText">Se quiseres aceder ao conteúdo, por favor, <h1 class="bigTextS">seleciona o teu curso</h1></h1>
-                <div class="custom-select-wrapper">
-                  <div class="custom-select">
-                      <div class="custom-select__trigger"><span>Selecionar curso...</span>
-                          <div class="arrow"></div>
-                      </div>
-                      <div class="custom-options">
-                        <span class="custom-option selected" data-value="default"></span>
-                          <a href="PSI/psi.php"><span class="custom-option" data-value="GPSI" >Gestão e Programação de Sistemas Informáticos</span></a>
-                          <a href="ASC/asc.php"><span class="custom-option" data-value="ASC">Animação Sociocultural(Turística, Desportiva e de Apoio à Infância)</span></a>
-                          <a href="COM/com.php"><span class="custom-option" data-value="CMRPP">Comunicação, Marketing, Relações Públicas e Publicidade</span></a>
-                          <a href="TIG/tig.php"><span class="custom-option" data-value="TIG">Técnico de Informática de Gestão</span></a>
-                      </div>
-                  </div>
-                </div>
+            <div style="margin-top:150px">
+                <h1 class="bigText">Se quiser aceder ao conteúdo, por favor, <h1 class="bigTextS">insira o seu código</h1></h1>
+                <form>
+                    <div class="input-group">
+                        <input type="password" class="form-control" placeholder="Código do professor" id="professorCode">
+                        <button class="btn btn-outline-secondary" type="submit" id="sendProfCode"><i class='bx bxs-send'></i></button>
+                    </div>
+                </form>
             </div>
         </div>
         <div class="col-lg-1">
@@ -43,7 +37,7 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <p class="textProfessor">É um professor?<a href="professorPage.php" class="aProfessor"> Clique aqui para inserir o seu código.</a></p>
+          <p class="textProfessor">É um aluno? <a href="index.php" class="aProfessor">Clique aqui para selecionar o seu curso.</a></p>
         </div>
       </div>
       <div class="row"> 
