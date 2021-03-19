@@ -24,5 +24,5 @@ if ($('.custom-select__trigger').click(function(){
         document.querySelector('.custom-select__trigger').classList.add('custom-select___trigger');
     }
 })) {}
-
+/////////////////////////////////////
 

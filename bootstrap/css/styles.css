@@ -96,23 +96,32 @@ img {
   display: none;
 }
 
-.header__search {
-  display: flex;
-  padding: .40rem .75rem;
-  background-color: var(--first-color-light);
-  border-radius: .25rem;
-}
 
+.header__input{
+  
+  display:inline-block;
+  padding:0.50em 1.2em;
+  border:0.1em solid #1859a3;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.40em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#A5A1AA;
+  text-align:center;
+  transition: all 0.4s;
+  float: right;
+  }
+ 
 
-.header__input {
-  width: 100%;
-  border: none;
-  outline: none;
-  background-color: var(--first-color-light);
-  color: var(--title-color);
-}
+  .bx bx-chevron
+  {
+    padding:0.35em 1.2em;
+  }
+
 .header__input:hover {
-  color: var(--title-color-second);
+  color: var(--first-color);
 }
 
 .header__input::placeholder {

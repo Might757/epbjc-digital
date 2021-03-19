@@ -24,10 +24,10 @@
         <div class="col-lg-10"> 
             <div style="margin-top:150px">
                 <h1 class="bigText">Se quiser aceder ao conteúdo, por favor, <h1 class="bigTextS">insira o seu código</h1></h1>
-                <form>
+                <form class="professorForm">
                     <div class="input-group">
-                        <input type="password" class="form-control" placeholder="Código do professor" id="professorCode">
-                        <button class="btn btn-outline-secondary" type="submit" id="sendProfCode"><i class='bx bxs-send'></i></button>
+                        <input type="password" class="form-control professorCodeInput" placeholder="Código do professor" id="professorCode">
+                        <button class="btn btn-outline-secondary professorCodeButton" type="button" id="sendProfCode"><i class='bx bxs-send' id="planeButton" onclick="ani()"></i></button>
                     </div>
                 </form>
             </div>
@@ -58,6 +58,7 @@
     <script src="bootstrap/js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="bootstrap/js/style.js" ></script>
+    <script src="bootstrap/js/paperAnimation.js"></script>
     <script type="text/javascript">
       window.addEventListener("load", function () {
           const loader = document.querySelector(".loader-wrapper");

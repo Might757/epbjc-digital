@@ -10,11 +10,8 @@
             <i class='bx bx-search header__icon'></i>
         -->
             
-            <a href="../index.php" class="header__input">Escolher outro curso</a>
-            <i class='bx bxs-chevron-left-circle header__icon'></i>
-            
-        </div>
-
+            <a href="../index.php" class="header__input"> <i class='bx bx-chevron-left-circle'></i> Escolher outro curso</a>
+          
         <div class="header__toggle">
             <i class='bx bx-menu' id="header-toggle"></i>
         </div>

@@ -50,10 +50,75 @@ label:focus,
     -webkit-appearance:none;
     box-shadow: none !important;
 }
-
+.aProfessor {
+    margin-top: 0px;
+}
 .aProfessor:hover {
     transition: all 0.3s ease-in-out;
     -webkit-trasition: all 0.3s ease-in-out;
     -o-trasition: all 0.3s ease-in-out;
     color: rgba(172, 44, 44, 0.95);
 }
+.professorCodeInput {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(1, 9, 16, 0.95);
+    height: 70px;
+    line-height: 60px;
+    background: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    border-radius: 15px;
+  }
+
+.professorCodeButton {
+    margin-top: 50px;
+    height: 70px;
+    line-height: 60px;
+    width: 50px;
+    border-radius: 15px;
+    background: rgba(20, 146, 204, 0.95);
+    border-color: rgba(20, 146, 204, 0.95);
+    color: white;
+}
+
+.professorCodeButton:active {
+    background: rgba(20, 146, 204, 0.95);
+    border-color: rgba(20, 146, 204, 0.95);
+    color: white;
+}
+.professorCodeButton:hover {
+    background: rgba(16, 119, 167, 0.95);
+    border-color: rgba(16, 119, 167, 0.95);
+    color: white;
+}
+.professorCodeButton:hover > .bx {
+    transform: rotate(360deg);
+    transition: transform .30s;
+}
+.professorForm {
+    margin: 0;
+}
+
+.dropdownAnimation{
+    animation: animateDrop 0.5s forwards 0s ease-in-out;
+}
+  .loader-wrapper {
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(112, 13, 13, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
