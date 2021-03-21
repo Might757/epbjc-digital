@@ -24,10 +24,10 @@
         <div class="col-lg-10"> 
             <div style="margin-top:150px">
                 <h1 class="bigText">Se quiser aceder ao conteúdo, por favor, <h1 class="bigTextS">insira o seu código</h1></h1>
-                <form class="professorForm">
+                <form class="professorForm" id="professorForm">
                     <div class="input-group">
                         <input type="password" class="form-control professorCodeInput" placeholder="Código do professor" id="professorCode">
-                        <button class="btn btn-outline-secondary professorCodeButton" type="button" id="sendProfCode"><i class='bx bxs-send' id="planeButton" onclick="ani()"></i></button>
+                        <button class="btn btn-outline-secondary professorCodeButton" type="submit" id="sendProfCode" href="index.php"><i class='bx bxs-send' id="planeButton"></i></button>
                     </div>
                 </form>
             </div>

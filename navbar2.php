@@ -5,17 +5,15 @@
         <a href="#" class="header__logo">EPBJC Digital</a>
         <link href="bootstrap/css/btnBack.css" rel="stylesheet">
         <div class="header__search">
-        <!---
-            <input type="search" placeholder="Search" class="header__input">
-            <i class='bx bx-search header__icon'></i>
-        -->
-            
-            <a href="../index.php" class="header__input"> <i class='bx bx-chevron-left-circle'></i> Escolher outro curso</a>
-          
+            <!---
+                <input type="search" placeholder="Search" class="header__input">
+                <i class='bx bx-search header__icon'></i>
+            -->
+            <a href="../index.php" class="header__input"><i class='bx bx-left-arrow header__icon' style="vertical-align: middle; margin-right: 5px; font-size: 14px;"></i>Escolher outro curso</a>
+        </div>
         <div class="header__toggle">
             <i class='bx bx-menu' id="header-toggle"></i>
         </div>
-    </div>
 </header>
         <!--========== NAV ==========-->
 <div class="nav" id="navbar">
