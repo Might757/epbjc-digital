@@ -40,5 +40,18 @@ class dataAccess{
         return $res;
     }
 
-
+    public function login($code){
+        
+        //code = profV7z7L6tGB
+        
+        $cmd = "select id from admins where keyCode = '$code'";
+        $res =  $this->bridge($cmd);
+        if(mysqli_num_rows($res) == 1){
+            $row = mysqli_fetch_object($res);
+            $idAdmin = $row->id;                    
+            return $idAdmin;
+        }
+        return -1;
+    }
+}
 ?>

@@ -1,3 +1,8 @@
+<?php
+    session_start();
+    include_once('database/dataAccess.php');
+    $da = new dataAccess();  
+?>
 <!doctype php>
 <html lang="en">
   <head>
@@ -24,7 +29,7 @@
                 <h1 class="bigText">Se quiseres aceder ao conteúdo, por favor, <h1 class="bigTextS">seleciona o teu curso</h1></h1>
                 <div class="custom-select-wrapper">
                   <div class="custom-select">
-                      <div class="custom-select__trigger"><span>Selecionar curso...</span>
+                      <div class="custom-select__trigger"><span style="opacity: 0.7">Selecionar curso...</span>
                           <div class="arrow"></div>
                       </div>
                       <div class="custom-options">

@@ -84,19 +84,19 @@ label:focus,
     line-height: 60px;
     width: 50px;
     border-radius: 15px;
-    background: rgba(20, 146, 204, 0.95);
-    border-color: rgba(20, 146, 204, 0.95);
+    background: rgba(54, 5, 5, 0.95);
+    border-color: rgba(54, 5, 5, 0.95);
     color: white;
 }
 
 .professorCodeButton:active {
-    background: rgba(20, 146, 204, 0.95);
-    border-color: rgba(20, 146, 204, 0.95);
+    background: rgba(54, 5, 5, 0.95);
+    border-color: rgba(54, 5, 5, 0.95);
     color: white;
 }
 .professorCodeButton:hover {
-    background: rgba(16, 119, 167, 0.95);
-    border-color: rgba(16, 119, 167, 0.95);
+    background: rgba(34, 3, 3, 0.95);
+    border-color: rgba(34, 3, 3, 0.95);
     color: white;
 }
 .professorCodeButton:hover > .bx {
