@@ -5,7 +5,7 @@
         //está a fazer login
         $code = $_POST['profCode'];       
         $result = $da->login($code);
-        $url = '';
+        $url = 'professorPage.php';
 
         //se o código do professor não estiver correto   
         if($result == -1){

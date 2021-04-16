@@ -256,4 +256,6 @@ color: #000000;
 .card-group {
   padding: 0;
 }
-
+.modal-content {
+  border-radius: 22px;
+}

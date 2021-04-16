@@ -2,6 +2,7 @@
     session_start();
     include_once('database/dataAccess.php');
     $da = new dataAccess();  
+  
 ?>
 <!doctype php>
 <html lang="en">
@@ -35,8 +36,8 @@
                         <button class="btn btn-outline-secondary professorCodeButton" type="submit" id="sendProfCode" name="sendProfCode" href="index.php"><i class='bx bxs-send' id="planeButton"></i></button>
                         <?php
                           if(isset($_SESSION["error"])){
-                                        $error = $_SESSION["error"];
-                                        echo "<span>$error</span>";
+                            $error = $_SESSION["error"];
+                            echo "<span>$error</span>";
                           }
                         ?>  
                     </div>
@@ -67,22 +68,25 @@
       <?php
         include_once('modalMensagem.php');
       ?>
+      
     </div>
     <script src="bootstrap/js/jquery.min.js" ></script>
     <script src="bootstrap/js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="bootstrap/js/style.js" ></script>
     <script type="text/javascript">
+
       window.addEventListener("load", function () {
           const loader = document.querySelector(".loader-wrapper");
           loader.className += " hidden"; // class "loader hidden"
       });
     </script>
+    
     <?php
       if (isset($_SESSION['id']) ) {
         echo "<script>console.log('estás logado burro.');</script>";
       }
-    include_once('imports/messages.php');
+      include_once("imports/messages.php");
     ?>
     
     <script>

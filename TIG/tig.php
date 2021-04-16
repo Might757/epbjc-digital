@@ -16,7 +16,8 @@
     <title>EPBJC Digital</title>
   </head>
   <body>
-  <script src="../bootstrap/js/jquery.min.js" ></script>
+    <script src="../bootstrap/js/jquery.min.js">
+    </script>
       <?php 
       include_once("../navbar2.php");
       ?>
